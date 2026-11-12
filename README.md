@@ -4,27 +4,103 @@ A single-page mobile web app that brings together tarot, numerology, astrology, 
 
 It is one file (`index.html`). There is no server, no account, no tracking and no internet connection needed once the page has loaded. Everything the user saves stays on their own device.
 
+## Guided Tarot Lessons
+
+Open **Tarot → Learn Tarot → Open the lessons**. Ten interactive lessons cover observation, positions, reversals, court cards, connecting cards, comparing two options, comparing deck art, reading with a friend, and reviewing a reading later. Complete both questions in a lesson to save its completion on this device.
+
+## Compare cards and favorite decks
+
+Open **Tarot → Compare Cards** or tap **Compare this card** from a card detail. Choose a card and two decks to inspect their art side by side. Some cards also have short notes on the imagery. Favorite playable decks in **Deck Gallery** to move them to the front of the reading deck picker.
+
+## Oracle guides and guided listening
+
+Open **Oracles → Learn** for shortcuts to separate study guides for repeating numbers, crystals, and chakras. Each has a worked example and a self-check. Open **Oracles → Sound Lab → Guided Listening** for three six-second A/B comparisons with explanations for pitch, pulsing, and tone color.
+
+## Zodiac boundaries and rune practice
+
+Open **Cosmos → Zodiac Boundaries** for dated examples of a tropical Sun sign transition and a Lunar New Year boundary. The lesson links to its source calendars and to February 2024 in Arcanum. Open **Oracles → Runes** to cast the two-rune Support & Friction or four-rune Crossroads layout and study a worked Crossroads reading.
+
+## Interactive learning labs
+
+Open **Numbers → Life Path Methods** to compare two calculations and see what changes when 11, 22, and 33 are retained. Open **Cosmos → Chart Study** for an interactive wheel of all twelve houses and a diagram of seven example aspect angles. Both include practice questions.
+
+## Seasonal practices
+
+Open **Cosmos → Moon** and select a date in the Lunar Calendar. Below the calendar, choose a hemisphere and explore the seasonal and lunar journal prompts. Open the four-card Seasonal Turning Point spread with the selected date and seasonal prompt, then save your reading to add Journal notes.
+
+## Folklore and Symbol Atlas
+
+Open **Oracles → Symbol Atlas** to search six motifs, read their story context, and inspect ten examples from Arcanum’s Tarot art. Every entry links to a source and includes a reflection prompt.
+
+## Bibliomancy
+
+Open **Oracles → Bibliomancy** to draw a passage, browse six public-domain excerpts, or follow a worked reading. Each passage includes its author, original work and source. Save one editable reflection per passage under **Reflections**. Saved notes are included when you export an Arcanum backup.
+
+## Geomancy
+
+Open **Oracles → Geomancy** to cast a shield chart. Enter the parity of 16 rows from a paper cast or generate the rows automatically. Explore all 16 figures and follow a worked chart from the Mothers through the Judge and Reconciler.
+
+## Playing-card cartomancy
+
+Open **Oracles → Playing Cards** for a separate 52-card pack. Reveal a single card or a line of three or five. The Card Library has a reflection prompt for every card, and Learn shows how to read rank and suit together.
+
+## Lenormand
+
+Open **Oracles → Lenormand** for a separate 36-card oracle with its own illustrated faces and back. Draw one card, a pair, or a three- or five-card line. The Card Library explains each symbol, and Practice lets you swap the subject and modifier to see how order changes a reading.
+
+## I Ching line study
+
+Under **Oracles → I Ching**, expand **Study changing lines**. Select any of the 64 hexagrams and toggle its lines to see the original and resulting figures side by side. Random casts include the same six-line breakdown, numbered from the bottom. The reference links open James Legge’s translation of the classical text.
+
+## Dream Journal and worked examples
+
+In **Journal → Dream Journal**, record a dream with its feelings and symbols. Search saved dreams or filter by recurring symbols and date range. Entries stay on the device and are included in the app’s backup export.
+
+In **Cosmos → Moon**, browse the lunar calendar and select any day for its estimated phase and illumination.
+
+The learning sections for Tarot, Numerology, Cosmos, Oracles, and Frequencies include worked examples and exercises you can try or listen to.
+
+## Revisiting readings
+
+Search the Journal by card, deck, question, note, or tag. Open a reading to mark it as a favorite or save comma-separated tags. Saved entries include expandable card interpretations. Completed and saved readings also include a journal prompt and a small practice tied to a card in the spread.
+
+## Custom spreads and calculation details
+
+The **Everyday** category contains spreads for friendship, creativity and transitions, plus a five-position Companion Reading for two people. In **Tarot → Reading**, open the **Custom** spread category and create a template with one to nine named positions. Edit or delete templates from that category. Saved readings retain the template they used, including its original positions, when you edit or delete the template later.
+
+In **Numbers → Cycles**, open **See the calculation** for the steps behind your Personal Year, Month and Day.
+
+## Drawing and sharing
+
+After choosing a spread, use **Shuffle and Draw** for an automatic draw or **Draw by hand** to riffle, shuffle and cut. Fan out the deck and select one face-down card for each position shown. Swipe horizontally to browse each row.
+
+Choose **Share reading** after revealing the spread or from a saved entry in Journal. Choose Feed (4:5), Story (9:16) or Square (1:1), then download the PNG or use the device share menu where supported. For spreads of four or more cards, choose **Carousel** to export numbered 4:5 slides with up to three cards each. Download slides individually or share them together on devices that support sharing multiple files. Under **What to include**, choose whether to show the spread title and position labels, the deck name, and brief card interpretations in the copyable caption. Reading questions and journal notes are excluded from the image and caption.
+
 ## Illustrated app sections
 
 Home features an illustrated directory and a dawn scene behind the daily card. Tarot, Numerology, Cosmos, Oracles, Journal, Settings, Card Library, Learn Tarot and Sound Lab each have their own chapter artwork. The Western and Chinese zodiac portraits appear in the sign directories and personalized sign profiles. The chapter art and portraits are bundled for offline use.
 
 ## Illustrated tarot decks
 
-Open **Tarot → Reading** and choose **Alice in Wonderland** or **Gilded Nocturne** before selecting a spread. Each edition includes individually illustrated Major Arcana and court cards. Aces through tens use painted suit scenes with rank emblems. Choosing a deck also sets the daily card and card library artwork. Existing deck traditions are available under **Original decks**.
+Open **Tarot → Reading** and choose **Alice in Wonderland**, **Gilded Nocturne**, **Felix the Cat**, **Otherworld Ways**, **Circle of Seasons**, **Woodland Folklore**, **Tides & Legends**, **Once Upon a Time**, **City of Capes**, **Aether Circuit**, **Draconic Atlas**, **The Infernal Masquerade**, **Clockwork Observatory**, **Gothic Library**, **Midnight Diner**, **The Hourglass Desert**, **Wind and Water**, **The Unseen Geometry**, or **The Light Between** before selecting a spread. Each edition has 78 individual painted scenes. Choosing a deck also sets the daily card and card library artwork. Existing deck traditions are available under **Original decks**. Open **Tarot → Deck Gallery** to see playable decks and preview their faces and backs, or change the deck in **Card Library** to browse without changing your current reading.
 
 The bundled illustrations are embedded in the built HTML for offline use. The source images are in `art/editions/` for rebuilding the app. Optional Art Studio overrides remain available separately.
 
 
 ---
 
+## Spirit Animal Tarot
+
+Choose **Spirit Animal Tarot** in the Deck Gallery or reading setup. It includes 78 individual wildlife illustrations and a matching back. The GitHub update contains the new page and the complete `art/editions/spirit-animal/` folder. Upload the files from inside the update archive, keeping the folder path and existing decks.
+
 ## Contents of this package
 
 | Item | What it is |
 |---|---|
-| `index.html` | The whole app. This is the file that gets hosted. |
+| `index.html` | The app page, scripts, and styles. It loads artwork from the neighboring `art/` folder. |
 | `README.md` | This guide. |
 | `ART_GUIDE.txt` | Every image file name plus a ready-made ChatGPT prompt for each of the 104 pictures. |
-| `art/` | Empty folders where your own artwork goes (see "Adding your own art"). |
+| `art/` | Built-in illustrations under `art/editions/` and folders for optional custom artwork. |
 | `.nojekyll` | An empty file that tells GitHub Pages to serve the files as they are. Keep it. |
 | `source/` | The editable source code and the build script, in case you want to change the app. |
 
@@ -42,7 +118,7 @@ You need a free GitHub account.
 4. Wait a minute or two. GitHub shows the address, which looks like `https://YOURNAME.github.io/arcanum/`.
 5. Open that address on a phone.
 
-To update the app later, upload the new `index.html` over the old one (same name) and commit. It may take a minute to refresh. If the old version still shows, close the page and reopen it, or do a hard refresh.
+To update an existing site, upload the new `index.html` over the old one in the same folder. Keep the existing `art/editions/` folders and filenames. The page loads artwork using paths relative to itself, including when the site lives under a GitHub Pages project path. If the old version still shows, wait for the Pages deployment, then refresh.
 
 ### Putting it on a phone's home screen
 
@@ -53,7 +129,7 @@ It then opens full screen like an app.
 
 ### Trying it without hosting
 
-You can also just double-click `index.html` to open it on a computer. Almost everything works. Voice and sound work too, though phones may behave differently when a file is opened from storage instead of a web address.
+To preview the app locally with artwork and PNG exports, run `python -m http.server 8000` from the folder containing `index.html` and `art/`, then open `http://localhost:8000/`. Browsers can restrict exporting images from pages opened directly from disk.
 
 ---
 
@@ -67,7 +143,7 @@ The bottom bar has six areas: **Home, Tarot, Numbers, Cosmos, Oracles, Journal.*
 - A "fact of the day" and quick tiles into every part of the app.
 
 ### Tarot
-- **24 spreads** in 7 groups:
+- **29 built-in spreads** in 8 groups:
   - *Quick:* Single Card, Yes or No, Past/Present/Future, Mind/Body/Spirit, Situation/Action/Outcome, The Four Elements.
   - *Classic:* Horseshoe (7), Celtic Cross (10).
   - *Love:* Relationship Mirror (5), Seven Hearts (7).
@@ -280,19 +356,21 @@ Notes:
 
 ## 12. For developers: source and rebuilding
 
-`source/` contains the code. It is plain JavaScript and CSS with no frameworks and no dependencies. A Python 3 script combines the files into one page.
+`source/` contains the code. It is plain JavaScript and CSS with no frameworks and no dependencies. A Python 3 script combines the scripts and styles into one page and validates the separate artwork files.
 
 ```
 cd source
 python3 build.py        # writes source/dist/index.html
 ```
 
+Copy the generated `index.html` beside the existing `art/` folder before serving or uploading it.
+
 Files in `source/src/`, in the order the build joins them:
 
 | File | Purpose |
 |---|---|
 | `data-majors.js`, `data-minors1.js`, `data-minors2.js` | Card text: keywords, upright, reversed, love, career, advice, lore |
-| `data-tarot.js` | Builds the 78 cards, the suits, rank info, decans, deck traditions and all 24 spreads |
+| `data-tarot.js` | Builds the 78 cards, the suits, rank info, decans, deck traditions and the built-in spreads |
 | `data-deep1.js`, `data-deep2.js`, `data-deep3.js` | The extended text: Major Arcana deep readings, Minor Arcana imagery text, reversal lenses and the combining functions |
 | `data-numbers.js`, `engine-num.js` | Numerology texts and the calculation engine |
 | `data-cosmos.js` | Signs, Chinese zodiac, moon, planets, houses, birthstones |
@@ -321,7 +399,7 @@ Files in `source/src/`, in the order the build joins them:
 
 ## 13. Version summary
 
-- 78 cards, 5 deck traditions, 24 spreads, reversal support with 3 reading lenses, 3 reading lengths.
+- 78 cards, multiple deck traditions, 29 built-in spreads, reversal support with 3 reading lenses, 3 reading lengths.
 - 22 hand-drawn Major Arcana scenes, a custom-art system for 104 image slots, and the Art Studio.
 - Numerology (Pythagorean and Chaldean), astrology and sign matching, Chinese zodiac, moon, runes (24), I Ching (64 hexagrams with nuclear and opposite hexagrams), angel numbers, crystals (36), chakras (7).
 - Frequencies, Sound Lab, binaural beats and resonance experiments.
